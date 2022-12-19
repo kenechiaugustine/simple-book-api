@@ -103,5 +103,5 @@ func main() {
 	router.GET("/books/:id", booksById)
 	router.PATCH("/checkout", checkoutBook)
 	router.PATCH("/return", returnBook)
-	router.Run("localhost:8080")
+	router.Run()
 }
